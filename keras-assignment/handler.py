@@ -5,6 +5,8 @@ except ImportError:
   pass
 print('unzip end')
 
+#test
+
 import json
 from keras.applications.inception_v3 import InceptionV3, preprocess_input, decode_predictions
 from keras.preprocessing import image
