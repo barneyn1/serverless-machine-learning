@@ -3,9 +3,9 @@ service: parse-api # NOTE: update this with your service name
 
 provider:
   name: aws
-  runtime: python3.6
+  runtime: python3.10
   stage: dev
-  region: eu-central-1
+  region: us-east-1
 
 # you can add packaging information here
 #package:
